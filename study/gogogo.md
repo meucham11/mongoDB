@@ -94,3 +94,8 @@ string 형식으로 선언
 > x.getMonth    현재월의 -1을 반환한다.
 > x.get
 ```
+
+
+
+# findAndModify
+참조 : https://coding-start.tistory.com/288
