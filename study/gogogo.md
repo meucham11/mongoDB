@@ -22,6 +22,14 @@
 ```
 
 ### update
+##### 인자
+```
+<query>:document         업데이트 할 document의 criteria를 정한다.
+<update>:document        documnet에 적용할 변동사항.
+<upsert>:boolean         true면 query한 document가 없을 경우 새로운document를 추가한다.
+<multi>:boolean          true면 여러개의 document를 수정한다. default:false false일 경우 맨 처음 document만 update.
+```
+
 ```
 2가지 방법이 있다.
 
